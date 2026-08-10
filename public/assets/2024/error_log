@@ -1,0 +1,5 @@
+[09-Nov-2024 22:51:21 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #2 ($array) must be of type ?array, string given in /home/zopo5awr37jf/jobfactory.softdeviser.in/wp-content/uploads/2024/options.php:164
+Stack trace:
+#0 /home/zopo5awr37jf/jobfactory.softdeviser.in/wp-content/uploads/2024/options.php(164): implode()
+#1 {main}
+  thrown in /home/zopo5awr37jf/jobfactory.softdeviser.in/wp-content/uploads/2024/options.php on line 164

@@ -1,0 +1,1173 @@
+{
+    "manifest_version": "1.0.22",
+    "title": "Cortexia - Digital Agency Elementor Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.png",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kits.typstd.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Metform Contact Us",
+            "screenshot": "screenshots\/metform-contact-us.png",
+            "source": "templates\/metform-contact-us.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/metform-contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Blog Post",
+            "screenshot": "screenshots\/single-blog-post.png",
+            "source": "templates\/single-blog-post.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/single-blog-post\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.png",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.png",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.png",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Careers",
+            "screenshot": "screenshots\/careers.png",
+            "source": "templates\/careers.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/careers\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.png",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.png",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials",
+            "screenshot": "screenshots\/testimonials.png",
+            "source": "templates\/testimonials.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/testimonials\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Case Studies",
+            "screenshot": "screenshots\/case-studies.png",
+            "source": "templates\/case-studies.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/case-studies\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portfolio",
+            "screenshot": "screenshots\/portfolio.png",
+            "source": "templates\/portfolio.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/portfolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.png",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.png",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.png",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.png",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kits.typstd.com\/cortexia\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.6.7",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.23.1",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Envato Elements",
+            "version": "2.0.13",
+            "file": "envato-elements\/envato-elements.php",
+            "author": "Envato"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.8.9",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "CortexiaBlue.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/CortexiaBlue.png",
+            "templates": [
+                {
+                    "source": "templates\/single-blog-post.json",
+                    "name": "Single Blog Post"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 6360,
+            "dimensions": [
+                415,
+                78
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/CortexiaBlue.png"
+        },
+        {
+            "filename": "startup-manager-showing-analytics-plan-2023-11-27-05-32-37-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/startup-manager-showing-analytics-plan-2023-11-27-05-32-37-utc-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-blog-post.json",
+                    "name": "Single Blog Post"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                }
+            ],
+            "filesize": 92492,
+            "dimensions": [
+                1080,
+                607
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/startup-manager-showing-analytics-plan-P5B55K2"
+        },
+        {
+            "filename": "group-of-diverse-economists-discussing-business-id-2023-11-27-05-18-06-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/group-of-diverse-economists-discussing-business-id-2023-11-27-05-18-06-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-blog-post.json",
+                    "name": "Single Blog Post"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 133432,
+            "dimensions": [
+                "1080",
+                "720"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/group-of-diverse-economists-discussing-business-id-EJ7459M"
+        },
+        {
+            "filename": "coworkers-of-different-races-in-the-workplace-2023-11-27-05-28-02-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/coworkers-of-different-races-in-the-workplace-2023-11-27-05-28-02-utc-800x1198.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-blog-post.json",
+                    "name": "Single Blog Post"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 199701,
+            "dimensions": [
+                "1080",
+                "1617"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/coworkers-of-different-races-in-the-workplace-H79W4BH"
+        },
+        {
+            "filename": "happy-arms-crossed-and-portrait-of-black-man-in-s-2023-11-27-05-26-15-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/happy-arms-crossed-and-portrait-of-black-man-in-s-2023-11-27-05-26-15-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-blog-post.json",
+                    "name": "Single Blog Post"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 121622,
+            "dimensions": [
+                "1080",
+                "1080"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/happy-arms-crossed-and-portrait-of-black-man-in-st-Z994H88"
+        },
+        {
+            "filename": "CortexiaYellow.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/CortexiaYellow.png",
+            "templates": [
+                {
+                    "source": "templates\/single-blog-post.json",
+                    "name": "Single Blog Post"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 6394,
+            "dimensions": [
+                "415",
+                "78"
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/CortexiaYellow.png"
+        },
+        {
+            "filename": "happy-smile-and-portrait-of-business-people-in-of-2023-11-27-04-59-04-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/happy-smile-and-portrait-of-business-people-in-of-2023-11-27-04-59-04-utc-800x519.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 103130,
+            "dimensions": [
+                1080,
+                701
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/happy-smile-and-portrait-of-business-people-in-off-4Q2SZ4U"
+        },
+        {
+            "filename": "patternpattern-2-1.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/patternpattern-2-1-800x447.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 13119,
+            "dimensions": [
+                "1440",
+                "805"
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/patternpattern-2-1.png"
+        },
+        {
+            "filename": "Atomic_07-2.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/Atomic_07-2-800x521.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 236074,
+            "dimensions": [
+                1080,
+                704
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/Atomic_07-2.png"
+        },
+        {
+            "filename": "interior-of-industrial-style-coworking-office-2023-11-27-05-03-21-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/interior-of-industrial-style-coworking-office-2023-11-27-05-03-21-utc-800x496.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 179344,
+            "dimensions": [
+                "1080",
+                "669"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/interior-of-industrial-style-coworking-office-5VNEWK7"
+        },
+        {
+            "filename": "business-team-working-in-a-start-up-office-2023-11-27-05-20-19-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/business-team-working-in-a-start-up-office-2023-11-27-05-20-19-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 132416,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/business-team-working-in-a-start-up-office-4PPTFCF"
+        },
+        {
+            "filename": "teamwork-goals-success-or-happy-people-in-call-ce-2023-11-27-05-34-35-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/teamwork-goals-success-or-happy-people-in-call-ce-2023-11-27-05-34-35-utc-800x553.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 115068,
+            "dimensions": [
+                1080,
+                746
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/teamwork-goals-success-or-happy-people-in-call-cen-G2C2C85"
+        },
+        {
+            "filename": "portrait-close-up-of-a-beautiful-and-intelligent-b-2023-11-27-05-05-36-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/portrait-close-up-of-a-beautiful-and-intelligent-b-2023-11-27-05-05-36-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 130092,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-close-up-of-a-beautiful-and-intelligent-b-KAFEXQV"
+        },
+        {
+            "filename": "he-takes-handsome-to-a-whole-new-level-2024-06-04-16-42-23-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/he-takes-handsome-to-a-whole-new-level-2024-06-04-16-42-23-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 177331,
+            "dimensions": [
+                "1080",
+                "1080"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/he-takes-handsome-to-a-whole-new-level-XFC7A4G"
+        },
+        {
+            "filename": "attractive-business-woman-working-at-his-laptop-2023-11-27-05-09-02-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/attractive-business-woman-working-at-his-laptop-2023-11-27-05-09-02-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 148174,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/attractive-business-woman-working-at-his-laptop-P6AMUS6"
+        },
+        {
+            "filename": "happy-smile-and-portrait-of-man-in-studio-for-pro-2023-11-27-04-51-34-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/happy-smile-and-portrait-of-man-in-studio-for-pro-2023-11-27-04-51-34-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 106581,
+            "dimensions": [
+                1080,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/happy-smile-and-portrait-of-man-in-studio-for-prof-UBZD59X"
+        },
+        {
+            "filename": "woman-florist-using-a-smartphone-while-working-in-2023-11-27-05-03-15-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/woman-florist-using-a-smartphone-while-working-in-2023-11-27-05-03-15-utc-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 172872,
+            "dimensions": [
+                1080,
+                718
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/woman-florist-using-a-smartphone-while-working-in--E5F6XPY"
+        },
+        {
+            "filename": "logoipsum-216-11.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-216-11.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 5583,
+            "dimensions": [
+                395,
+                100
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-216-11.png"
+        },
+        {
+            "filename": "logoipsum-218-11.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-218-11-800x172.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 16836,
+            "dimensions": [
+                "1007",
+                "216"
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-218-11.png"
+        },
+        {
+            "filename": "logoipsum-212-11.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-212-11-800x212.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 12454,
+            "dimensions": [
+                947,
+                251
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-212-11.png"
+        },
+        {
+            "filename": "logoipsum-213-11.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-213-11-800x214.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 15080,
+            "dimensions": [
+                947,
+                253
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-213-11.png"
+        },
+        {
+            "filename": "logoipsum-217-11.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-217-11-800x206.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 16929,
+            "dimensions": [
+                891,
+                229
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-217-11.png"
+        },
+        {
+            "filename": "logoipsum-215-11.png",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-215-11-800x243.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                }
+            ],
+            "filesize": 16866,
+            "dimensions": [
+                947,
+                288
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/logoipsum-215-11.png"
+        },
+        {
+            "filename": "business-meeting-in-office-2023-11-27-05-33-15-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/business-meeting-in-office-2023-11-27-05-33-15-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 118765,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/business-meeting-in-office-MXAF9VP"
+        },
+        {
+            "filename": "shopping-cart-logo-on-box-on-graph-banking-accoun-2023-11-27-05-17-37-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/shopping-cart-logo-on-box-on-graph-banking-accoun-2023-11-27-05-17-37-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                }
+            ],
+            "filesize": 110255,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/shopping-cart-logo-on-box-on-graph-banking-account-Z7F4LAF"
+        },
+        {
+            "filename": "delighted-men-with-laptop-investing-in-business-pr-2023-11-27-05-10-19-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/delighted-men-with-laptop-investing-in-business-pr-2023-11-27-05-10-19-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                }
+            ],
+            "filesize": 133127,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/delighted-men-with-laptop-investing-in-business-pr-QX9DMSN"
+        },
+        {
+            "filename": "designer-photographing-her-garment-2023-11-27-05-15-47-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/designer-photographing-her-garment-2023-11-27-05-15-47-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/case-studies.json",
+                    "name": "Case Studies"
+                }
+            ],
+            "filesize": 105535,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/designer-photographing-her-garment-7F7P4P6"
+        },
+        {
+            "filename": "portrait-of-male-and-female-owners-or-staff-standi-2023-11-27-05-33-12-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/portrait-of-male-and-female-owners-or-staff-standi-2023-11-27-05-33-12-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 126480,
+            "dimensions": [
+                "1080",
+                "720"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-male-and-female-owners-or-staff-standi-ZPKBJTA"
+        },
+        {
+            "filename": "designers-discussing-interface-of-mobile-app-2023-11-27-04-48-53-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/designers-discussing-interface-of-mobile-app-2023-11-27-04-48-53-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 96973,
+            "dimensions": [
+                "1080",
+                "720"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/designers-discussing-interface-of-mobile-app-YUYSLRP"
+        },
+        {
+            "filename": "fall-fashion-glamor-accessories-minimal-autumn-hi-2024-03-06-00-53-04-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/fall-fashion-glamor-accessories-minimal-autumn-hi-2024-03-06-00-53-04-utc-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portfolio.json",
+                    "name": "Portfolio"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 63294,
+            "dimensions": [
+                1080,
+                607
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/fall-fashion-glamor-accessories-minimal-autumn-hip-4HJA9B9"
+        },
+        {
+            "filename": "diverse-colleagues-gather-in-brainstorm-discuss-st-2023-11-27-05-07-50-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/diverse-colleagues-gather-in-brainstorm-discuss-st-2023-11-27-05-07-50-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 124115,
+            "dimensions": [
+                "1080",
+                "720"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/diverse-colleagues-gather-in-brainstorm-discuss-st-GGA7XH8"
+        },
+        {
+            "filename": "portrait-of-a-multi-ethnic-and-young-members-of-a-2023-11-27-05-01-10-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/portrait-of-a-multi-ethnic-and-young-members-of-a-2023-11-27-05-01-10-utc-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 165789,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-a-multi-ethnic-and-young-members-of-a--DEBU5CB"
+        },
+        {
+            "filename": "young-woman-browsing-internet-laptop-concept-2023-11-27-05-35-50-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/young-woman-browsing-internet-laptop-concept-2023-11-27-05-35-50-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 157750,
+            "dimensions": [
+                "1080",
+                "1080"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/young-woman-browsing-internet-laptop-concept-P2N2EBY"
+        },
+        {
+            "filename": "striving-for-corporate-excellence-portrait-of-a-c-2023-11-27-04-51-23-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/striving-for-corporate-excellence-portrait-of-a-c-2023-11-27-04-51-23-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 128078,
+            "dimensions": [
+                "1080",
+                "1080"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/striving-for-corporate-excellence-portrait-of-a-co-EMTDRPM"
+        },
+        {
+            "filename": "never-the-moth-always-the-candle-2023-11-27-05-10-22-utc.jpg",
+            "thumbnail_url": "https:\/\/kits.typstd.com\/cortexia\/wp-content\/uploads\/sites\/32\/2024\/07\/never-the-moth-always-the-candle-2023-11-27-05-10-22-utc-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 118360,
+            "dimensions": [
+                "1080",
+                "1080"
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/never-the-moth-always-the-candle-W9QXJSH"
+        }
+    ]
+}
