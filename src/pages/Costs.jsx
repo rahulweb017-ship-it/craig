@@ -8,7 +8,7 @@ const Costs = () => {
     <div>
       {/* Hero Section */}
       <section className="hero-gradient" style={{ padding: '5.5rem 0' }}>
-        <div className="container split-layout" style={{ alignItems: 'center', gridTemplateColumns: '1fr 1fr' }}>
+        <div className="container split-layout" style={{ alignItems: 'center' }}>
           {/* Hero Image on Left */}
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <img 
@@ -23,7 +23,7 @@ const Costs = () => {
             <span style={{ color: '#fff', fontSize: '2.25rem', fontWeight: '700', display: 'block', marginBottom: '0.25rem' }}>
               Start Your Career
             </span>
-            <h1 className="highlight-text" style={{ fontSize: '3.75rem', marginBottom: '2rem', marginTop: '0' }}>
+            <h1 className="highlight-text text-hero" style={{ marginBottom: '2rem', marginTop: '0' }}>
               Apply, Impress, and Succeed!
             </h1>
             <ul style={{ listStyle: 'none', padding: 0 }}>
@@ -49,7 +49,7 @@ const Costs = () => {
         <div className="container">
           <div className="split-layout" style={{ marginBottom: '3.5rem' }}>
             <div>
-              <h2 style={{ fontSize: '3rem', margin: '0' }}>
+              <h2 className="text-section-title" style={{ margin: '0' }}>
                 Affordable Pricing<br />
                 <span className="highlight-text" style={{ color: '#ffb300' }}>Powerful Results!</span>
               </h2>
@@ -62,7 +62,7 @@ const Costs = () => {
           </div>
 
           {/* 3 Columns Pricing Cards */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2rem' }}>
+          <div className="grid-3col">
             
             {/* Card 1 */}
             <div style={{ backgroundColor: '#fff', border: '1px solid #e2e8f0', padding: '1rem', borderRadius: '4px', boxShadow: 'var(--shadow)', display: 'flex', flexDirection: 'column' }}>
@@ -143,7 +143,7 @@ const Costs = () => {
       {/* How To Pay Section */}
       <section className="how-we-do-it-container">
         <div className="container">
-          <h2 style={{ textAlign: 'center', fontSize: '3.5rem', color: 'var(--text-light)', marginBottom: '4rem' }}>
+          <h2 className="text-section-title" style={{ textAlign: 'center', color: 'var(--text-light)', marginBottom: '4rem' }}>
             How To Pay
           </h2>
 
@@ -220,14 +220,14 @@ const Costs = () => {
       {/* WHAT TO DO ONCE YOU HAVE PAID Section */}
       <section className="section">
         <div className="container">
-          <h2 style={{ fontSize: '3rem', color: 'var(--secondary)', marginBottom: '0.5rem' }}>
+          <h2 className="text-section-title" style={{ color: 'var(--secondary)', marginBottom: '0.5rem' }}>
             WHAT TO DO ONCE YOU HAVE PAID
           </h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', marginBottom: '4rem' }}>
             Once all of these things are complete we will deliver your resume and details to the employers you have selected.
           </p>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '2.5rem' }}>
+          <div className="grid-3col" style={{ gap: '2.5rem' }}>
             
             {/* Step 1 */}
             <div>
@@ -271,9 +271,9 @@ const Costs = () => {
 
       {/* WHAT IF I DON'T GET A JOB? Section */}
       <section className="section section-dark">
-        <div className="container split-layout" style={{ alignItems: 'center', gridTemplateColumns: '1fr 1fr' }}>
+        <div className="container split-layout" style={{ alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontSize: '3rem', margin: '0 0 1.5rem 0' }}>
+            <h2 className="text-section-title" style={{ margin: '0 0 1.5rem 0' }}>
               WHAT IF I DON'T<br />
               <span className="highlight-text" style={{ color: '#FCE38A' }}>GET A JOB?</span>
             </h2>

@@ -66,7 +66,7 @@ const FAQ = () => {
         <div className="container split-layout" style={{ textAlign: 'left', alignItems: 'center' }}>
           {/* Hero Content on Left */}
           <div>
-            <h1 className="highlight-text" style={{ fontSize: '3.75rem', margin: '0 0 1rem 0' }}>FAQ</h1>
+            <h1 className="highlight-text text-hero" style={{ margin: '0 0 1rem 0' }}>FAQ</h1>
             <p style={{ margin: '0', opacity: '0.9', fontSize: '1.25rem' }}>Common Questions</p>
           </div>
           
@@ -85,7 +85,7 @@ const FAQ = () => {
       <section className="section">
         <div className="container" style={{ maxWidth: '1200px', width: '100%' }}>
           <span style={{ color: 'var(--secondary)', fontWeight: '700', fontSize: '1.05rem', textTransform: 'uppercase' }}>FAQs</span>
-          <h2 style={{ fontSize: '3rem', marginTop: '0.5rem', marginBottom: '3rem' }}>
+          <h2 className="text-section-title" style={{ marginTop: '0.5rem', marginBottom: '3rem' }}>
             Need Help? We've Got Answers
           </h2>
 
@@ -142,7 +142,7 @@ const FAQ = () => {
             <span style={{ color: '#FCE38A', fontWeight: '700', fontSize: '1.1rem', textTransform: 'uppercase', display: 'block', marginBottom: '0.5rem' }}>
               Still Have Questions?
             </span>
-            <h2 style={{ fontSize: '3rem', margin: '0 0 1.5rem 0', color: '#fff' }}>
+            <h2 className="text-section-title" style={{ margin: '0 0 1.5rem 0', color: '#fff' }}>
               Get in touch with us
             </h2>
             <p style={{ color: '#fff', opacity: '0.85', fontSize: '1.1rem', lineHeight: '1.6', margin: '0' }}>

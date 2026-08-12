@@ -130,7 +130,7 @@ const Home = () => {
       <section className="section">
         <div className="container split-layout" style={{ alignItems: 'center' }}>
           <div>
-            <h2 style={{ fontSize: '3.25rem', marginTop: '0', marginBottom: '0' }}>
+            <h2 className="text-section-title" style={{ marginTop: '0', marginBottom: '0' }}>
               Skip the <span className="highlight-text">queue</span>
             </h2>
           </div>
@@ -176,7 +176,7 @@ const Home = () => {
       {/* We can help with any professional jobs Section */}
       <section className="section">
         <div className="container">
-          <h2 style={{ textAlign: 'center', fontSize: '2.75rem', marginBottom: '3.5rem' }}>
+          <h2 className="text-section-title" style={{ textAlign: 'center', marginBottom: '3.5rem' }}>
             We can help with any professional jobs
           </h2>
           
@@ -198,10 +198,10 @@ const Home = () => {
       {/* How we do it / Zigzag Cards Section */}
       <section className="how-we-do-it-container">
         <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '4rem' }}>
+          <div className="flex-header">
             <div>
               <span className="hero-subtitle">How we do it</span>
-              <h2 style={{ color: 'var(--text-light)', fontSize: '3rem', margin: '0' }}>
+              <h2 className="text-section-title" style={{ color: 'var(--text-light)', margin: '0' }}>
                 We are committed<br />to <span className="highlight-text">Your Success</span>
               </h2>
             </div>
@@ -282,13 +282,13 @@ const Home = () => {
       {/* Testimonials preview section with Interactive Testimonial Slider */}
       <section className="section" style={{ borderBottom: '1px solid var(--border-color)' }}>
         <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem' }}>
+          <div className="flex-header" style={{ alignItems: 'center' }}>
             <div>
               <span style={{ color: 'var(--secondary)', fontWeight: '700', fontSize: '1.15rem' }}>Testimonials</span>
-              <h2 style={{ fontSize: '3rem', margin: '0.5rem 0 0.75rem' }}>
+              <h2 className="text-section-title" style={{ margin: '0.5rem 0 0.75rem' }}>
                 See Our <span className="highlight-text" style={{ color: '#ffb300' }}>Results</span>
               </h2>
-              <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', margin: '0' }}>
+              <p className="text-body-large" style={{ color: 'var(--text-muted)', margin: '0' }}>
                 Check out hundreds of success stories
               </p>
             </div>

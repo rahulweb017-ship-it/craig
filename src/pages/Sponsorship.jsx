@@ -10,7 +10,7 @@ const Sponsorship = () => {
       {/* Hero Section */}
       <section className="hero-gradient" style={{ padding: '5rem 0' }}>
         <div className="container">
-          <h1 className="highlight-text" style={{ fontSize: '3.5rem', marginBottom: '1rem' }}>Sponsorship Jobs</h1>
+          <h1 className="highlight-text text-hero" style={{ marginBottom: '1rem' }}>Sponsorship Jobs</h1>
           <p style={{ margin: '0', opacity: '0.9', fontSize: '1.2rem' }}>
             We help clients find employers capable of offering visa sponsorships in New Zealand & Australia.
           </p>
@@ -21,7 +21,7 @@ const Sponsorship = () => {
       <section className="section">
         <div className="container split-layout">
           <div>
-            <h2 style={{ fontSize: '3rem', marginTop: '0' }}>
+            <h2 className="text-section-title" style={{ marginTop: '0' }}>
               Bypass portal filters and get <span className="highlight-text" style={{ color: '#ffb300' }}>direct sponsorships</span>
             </h2>
           </div>
@@ -37,7 +37,7 @@ const Sponsorship = () => {
             </p>
             
             <div style={{ backgroundColor: '#f8fafc', padding: '2.5rem', borderRadius: '4px', border: '1px solid #e2e8f0', marginTop: '2.5rem' }}>
-              <h3 style={{ fontSize: '1.5rem', color: 'var(--secondary)', marginBottom: '1.25rem' }}>
+              <h3 className="text-card-title" style={{ color: 'var(--secondary)', marginBottom: '1.25rem' }}>
                 Direct Placement Sponsorship Search
               </h3>
               <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginBottom: '1.5rem' }}>
@@ -66,7 +66,7 @@ const Sponsorship = () => {
       <section className="section section-dark" style={{ padding: '4.5rem 0' }}>
         <div className="container split-layout">
           <div>
-            <h2 style={{ fontSize: '3rem', margin: '0' }}>
+            <h2 className="text-section-title" style={{ margin: '0' }}>
               Still Have Questions?<br />
               <span className="highlight-text">Get in touch with us</span>
             </h2>

@@ -12,10 +12,10 @@ const HowItWorks = () => {
         <div className="container split-layout" style={{ alignItems: 'center' }}>
           {/* Hero Content on Left */}
           <div style={{ textAlign: 'left' }}>
-            <h1 className="highlight-text" style={{ fontSize: '3.25rem', marginBottom: '1.5rem', marginTop: '0' }}>
+            <h1 className="highlight-text text-hero" style={{ marginBottom: '1.5rem', marginTop: '0' }}>
               How It Works
             </h1>
-            <div className="hero-text-block" style={{ marginBottom: '0', fontSize: '1.25rem', lineHeight: '1.6' }}>
+            <div className="hero-text-block text-body-large" style={{ marginBottom: '0', lineHeight: '1.6' }}>
               <p style={{ fontWeight: '700', marginBottom: '0.75rem' }}>
                 The Job Factory finds jobs before they are advertised or given to recruitment companies.
               </p>
@@ -41,10 +41,10 @@ const HowItWorks = () => {
         <div className="container split-layout" style={{ alignItems: 'center' }}>
           {/* Text and list on Left */}
           <div>
-            <h2 style={{ fontSize: '3rem', marginTop: '0', marginBottom: '1.5rem' }}>
+            <h2 className="text-section-title" style={{ marginTop: '0', marginBottom: '1.5rem' }}>
               Can you help me <span className="highlight-text" style={{ color: '#ffb300' }}>find a job in New Zealand?</span>
             </h2>
-            <p style={{ fontSize: '1.1rem', fontWeight: '500', color: 'var(--text-dark)', marginBottom: '1.25rem' }}>
+            <p className="text-body-large" style={{ fontWeight: '500', color: 'var(--text-dark)', marginBottom: '1.25rem' }}>
               Odds are that we are your quickest way to get a job.
             </p>
             <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem', lineHeight: '1.75' }}>
@@ -91,13 +91,13 @@ const HowItWorks = () => {
       <section className="section section-dark" style={{ padding: '4.5rem 0' }}>
         <div className="container split-layout">
           <div>
-            <h2 style={{ fontSize: '2.75rem', margin: '0' }}>
+            <h2 className="text-section-subtitle" style={{ margin: '0' }}>
               Get Hired Fast<br />
               <span className="highlight-text" style={{ color: '#FCE38A' }}>Employers Call You!</span>
             </h2>
           </div>
           <div style={{ display: 'flex', alignItems: 'center' }}>
-            <p style={{ fontSize: '1.15rem', color: 'var(--text-light)', opacity: '0.95', margin: '0', lineHeight: '1.75' }}>
+            <p className="text-body-large" style={{ color: 'var(--text-light)', opacity: '0.95', margin: '0', lineHeight: '1.75' }}>
               Our clients are often called by employers in just a couple of days – sometimes in only hours. We have had clients who received calls and started work the next day. Our service is different because employers will be the ones calling you.
             </p>
           </div>
@@ -109,7 +109,7 @@ const HowItWorks = () => {
         <div className="container split-layout" style={{ alignItems: 'center' }}>
           {/* Text content on Left */}
           <div>
-            <h2 style={{ fontSize: '3rem', marginTop: '0', marginBottom: '1.5rem' }}>
+            <h2 className="text-section-title" style={{ marginTop: '0', marginBottom: '1.5rem' }}>
               Can you <span className="highlight-text" style={{ color: '#ffb300' }}>find me a job?</span>
             </h2>
             <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem', lineHeight: '1.75' }}>
@@ -139,18 +139,18 @@ const HowItWorks = () => {
         <div className="container">
           <div className="split-layout" style={{ marginBottom: '2.5rem' }}>
             <div>
-              <h2 style={{ fontSize: '3rem', marginTop: '0' }}>
+              <h2 className="text-section-title" style={{ marginTop: '0' }}>
                 Why can't <span className="highlight-text" style={{ color: '#ffb300' }}>I find a job?</span>
               </h2>
             </div>
             <div>
-              <p style={{ color: 'var(--text-muted)', margin: '0', fontSize: '1.1rem', lineHeight: '1.7' }}>
+              <p className="text-body-large" style={{ color: 'var(--text-muted)', margin: '0', lineHeight: '1.7' }}>
                 There are two main reasons getting a job is difficult.
               </p>
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem' }}>
+          <div className="grid-2col">
             <div style={{ backgroundColor: '#f8fafc', padding: '2.5rem', borderRadius: '4px', border: '1px solid #e2e8f0', boxShadow: 'var(--shadow)' }}>
               <h3 style={{ fontSize: '1.4rem', color: 'var(--secondary)', marginBottom: '1rem' }}>Bad cover letters</h3>
               <p style={{ color: 'var(--text-muted)', margin: '0', fontSize: '1rem', lineHeight: '1.75' }}>
@@ -181,7 +181,7 @@ const HowItWorks = () => {
 
           {/* Text content on Right */}
           <div>
-            <h2 style={{ fontSize: '2.75rem', marginTop: '0', marginBottom: '1.5rem', color: 'var(--secondary)' }}>
+            <h2 className="text-section-subtitle" style={{ marginTop: '0', marginBottom: '1.5rem', color: 'var(--secondary)' }}>
               How confident are you in your own ability to find a job fast?
             </h2>
             <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem', lineHeight: '1.75' }}>
@@ -193,7 +193,7 @@ const HowItWorks = () => {
             <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem', lineHeight: '1.75' }}>
               The only way to be sure that you are the first – and perhaps only – person to be considered is to get in before the job is advertised.
             </p>
-            <p style={{ color: 'var(--text-dark)', fontWeight: '700', margin: '0', fontSize: '1.1rem' }}>
+            <p className="text-body-large" style={{ color: 'var(--text-dark)', fontWeight: '700', margin: '0' }}>
               Happy job hunting!
             </p>
           </div>
@@ -204,12 +204,12 @@ const HowItWorks = () => {
       <section className="section section-bg">
         <div className="container">
           <span style={{ color: 'var(--secondary)', fontWeight: '700', fontSize: '1.1rem', textTransform: 'uppercase' }}>Our Work</span>
-          <h2 style={{ fontSize: '3rem', marginTop: '0.5rem', marginBottom: '3rem' }}>
+          <h2 className="text-section-title" style={{ marginTop: '0.5rem', marginBottom: '3rem' }}>
             In-depth analysis<br />of our work
           </h2>
 
           <div style={{ backgroundColor: '#fff', padding: '4.5rem', borderRadius: '4px', boxShadow: 'var(--shadow-lg)', border: '1px solid #e2e8f0' }}>
-            <h3 style={{ fontSize: '2.25rem', marginBottom: '2rem' }}>
+            <h3 className="text-section-subtitle" style={{ marginBottom: '2rem' }}>
               How Do We Find Jobs That No One Else Knows About
             </h3>
             
@@ -217,7 +217,7 @@ const HowItWorks = () => {
               Contact Us
             </Link>
 
-            <div style={{ color: 'var(--text-muted)', fontSize: '1.1rem', lineHeight: '1.75' }}>
+            <div className="text-body-large" style={{ color: 'var(--text-muted)', lineHeight: '1.75' }}>
               <p style={{ marginBottom: '1.5rem' }}>
                 Our process is simple. Just tell us the type of job that you want – accounting, aged care, administration, engineering, customer service, nursing, IT or any other type of job that you can think of – and we will start sending your cover letter and resume to up to 1500 companies that might have the type of job that you want.
               </p>
@@ -239,7 +239,7 @@ const HowItWorks = () => {
       <section className="section section-dark" style={{ padding: '4.5rem 0' }}>
         <div className="container split-layout">
           <div>
-            <h2 style={{ fontSize: '3rem', margin: '0' }}>
+            <h2 className="text-section-title" style={{ margin: '0' }}>
               Still Have Questions?<br />
               <span className="highlight-text" style={{ color: '#FCE38A' }}>Get in touch with us</span>
             </h2>

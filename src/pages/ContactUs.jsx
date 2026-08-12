@@ -48,7 +48,7 @@ const ContactUs = () => {
       {/* Hero Section */}
       <section className="hero-gradient" style={{ padding: '4.5rem 0' }}>
         <div className="container">
-          <h1 style={{ fontSize: '3.75rem', margin: '0' }}>Contact us</h1>
+          <h1 className="text-hero" style={{ margin: '0' }}>Contact us</h1>
         </div>
       </section>
 
@@ -58,7 +58,7 @@ const ContactUs = () => {
           
           {/* Form Column */}
           <div>
-            <h2 style={{ fontSize: '3rem', marginTop: '0', marginBottom: '1rem' }}>
+            <h2 className="text-section-title" style={{ marginTop: '0', marginBottom: '1rem' }}>
               Want us to <span className="highlight-text" style={{ color: '#ffb300' }}>call you?</span>
             </h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', marginBottom: '3rem' }}>
@@ -68,7 +68,7 @@ const ContactUs = () => {
             {submitted ? (
               <div style={{ padding: '3rem 2rem', backgroundColor: '#f0f4f8', border: '1px solid #e2e8f0', borderRadius: '4px', textAlign: 'center' }}>
                 <span style={{ fontSize: '3.5rem', display: 'block', marginBottom: '1rem' }}>🎉</span>
-                <h3 style={{ fontSize: '1.8rem', color: 'var(--secondary)', marginBottom: '0.75rem' }}>Thank You!</h3>
+                <h3 className="text-card-title" style={{ color: 'var(--secondary)', marginBottom: '0.75rem' }}>Thank You!</h3>
                 <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem' }}>
                   We have received your details. Craig or one of our team members will contact you shortly.
                 </p>
@@ -193,7 +193,7 @@ const ContactUs = () => {
 
           {/* Info Column */}
           <div style={{ paddingLeft: '1rem' }}>
-            <h2 style={{ fontSize: '2.25rem', marginTop: '0', marginBottom: '2rem' }}>Contact Info</h2>
+            <h2 className="text-section-subtitle" style={{ marginTop: '0', marginBottom: '2rem' }}>Contact Info</h2>
             <ul style={{ listStyle: 'none', padding: 0, fontSize: '1.05rem', color: 'var(--text-dark)', lineHeight: '1.8' }}>
               <li style={{ marginBottom: '1rem' }}>
                 <strong>Phone:</strong> {details.phone}

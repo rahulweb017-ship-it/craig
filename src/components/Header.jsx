@@ -103,6 +103,23 @@ const Header = () => {
           >
             Contact Us
           </NavLink>
+
+          {/* Mobile-only CTA and switcher */}
+          <div className="mobile-only-header-actions">
+            <a href={details.phoneRaw} className="header-phone-btn" style={{ textAlign: 'center', display: 'block' }}>
+              {details.phone}
+            </a>
+            <select 
+              value={country} 
+              onChange={handleCountryChange} 
+              className="header-country-select"
+              aria-label="Select region"
+              style={{ width: '100%' }}
+            >
+              <option value="NZ">New Zealand</option>
+              <option value="AU">Australia</option>
+            </select>
+          </div>
         </nav>
 
         {/* Header Right Actions */}

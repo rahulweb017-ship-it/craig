@@ -34,7 +34,7 @@ const ResumesInterviewTraining = () => {
       {/* Hero Section */}
       <section className="hero-gradient" style={{ padding: '5rem 0' }}>
         <div className="container" style={{ textAlign: 'left' }}>
-          <h1 style={{ fontSize: '3.5rem', marginBottom: '1rem', lineHeight: '1.15' }}>
+          <h1 className="text-hero" style={{ marginBottom: '1rem', lineHeight: '1.15' }}>
             Our resumes have<br />helped hundreds of<br />clients get jobs
           </h1>
           <p style={{ margin: '0', opacity: '0.9', fontSize: '1.2rem' }}>
@@ -47,14 +47,14 @@ const ResumesInterviewTraining = () => {
       <section className="section">
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 style={{ fontSize: '2.75rem', marginBottom: '0.75rem' }}>Resumes and cover letters that work</h2>
+            <h2 className="text-section-subtitle" style={{ marginBottom: '0.75rem' }}>Resumes and cover letters that work</h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', margin: '0' }}>The Job Factory takes the stress out of looking for a job.</p>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
             
             {/* Panel 1 */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', overflow: 'hidden', border: '1px solid #e2e8f0', borderRadius: '4px' }}>
+            <div className="training-grid">
               <div>
                 <img 
                   src="/assets/2024/11/group-of-diverse-group-of-business-people-having-a-2023-11-27-04-53-56-utc-1.jpg" 
@@ -63,7 +63,7 @@ const ResumesInterviewTraining = () => {
                 />
               </div>
               <div style={{ backgroundColor: '#f8fafc', padding: '3.5rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <h3 style={{ fontSize: '1.75rem', marginBottom: '1.25rem' }}>Why a Good Resume Matters</h3>
+                <h3 className="text-card-title" style={{ marginBottom: '1.25rem' }}>Why a Good Resume Matters</h3>
                 <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', margin: '0', lineHeight: '1.7' }}>
                   A good resume and cover letter will dramatically improve your chances of getting a job interview. On the other hand, a bad cover letter and resume will be deleted, and you will remain unemployed.
                 </p>
@@ -71,9 +71,9 @@ const ResumesInterviewTraining = () => {
             </div>
 
             {/* Panel 2 */}
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', overflow: 'hidden', border: '1px solid #e2e8f0', borderRadius: '4px' }}>
+            <div className="training-grid">
               <div style={{ backgroundColor: '#f8fafc', padding: '3.5rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                <h3 style={{ fontSize: '1.75rem', marginBottom: '1.25rem' }}>Affordable and Effective Services</h3>
+                <h3 className="text-card-title" style={{ marginBottom: '1.25rem' }}>Affordable and Effective Services</h3>
                 <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', margin: '0', lineHeight: '1.7' }}>
                   There is simply no need to spend hundreds of dollars on a resume. The Job Factory ensures that all of our cover letters and resumes are designed to give you the best chance of getting a job.
                 </p>
@@ -95,7 +95,7 @@ const ResumesInterviewTraining = () => {
       <section className="how-we-do-it-container">
         <div className="container split-layout-half">
           <div style={{ backgroundColor: '#fff', padding: '3.5rem 3rem', borderRadius: '4px', color: 'var(--text-dark)', boxShadow: 'var(--shadow-lg)' }}>
-            <h3 style={{ fontSize: '2rem', color: 'var(--secondary)', marginBottom: '1rem' }}>Pricing & Packages</h3>
+            <h3 className="text-section-subtitle" style={{ color: 'var(--secondary)', marginBottom: '1rem' }}>Pricing & Packages</h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', marginBottom: '2rem', lineHeight: '1.6' }}>
               We offer a cover letter and resume package. If you only want us to create a cover letter and resume that will help you get a job, we can do that too.
             </p>
@@ -122,7 +122,7 @@ const ResumesInterviewTraining = () => {
       <section className="section">
         <div className="container split-layout">
           <div>
-            <h2 style={{ fontSize: '3rem', marginTop: '0' }}>
+            <h2 className="text-section-title" style={{ marginTop: '0' }}>
               About Our <span className="highlight-text" style={{ color: '#ffb300' }}>Writers</span>
             </h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', marginTop: '1rem', lineHeight: '1.7' }}>
@@ -140,10 +140,10 @@ const ResumesInterviewTraining = () => {
       {/* Introduction Section */}
       <section className="section" style={{ paddingTop: '0' }}>
         <div className="container">
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>Introduction</h2>
+          <h2 className="text-section-subtitle" style={{ marginBottom: '2rem' }}>Introduction</h2>
           
           <div style={{ backgroundColor: 'var(--secondary)', color: '#fff', padding: '4.5rem', borderRadius: '4px', boxShadow: 'var(--shadow-lg)' }}>
-            <h3 style={{ color: '#fff', fontSize: '2.25rem', marginBottom: '1.5rem' }}>
+            <h3 className="text-card-title" style={{ color: '#fff', marginBottom: '1.5rem' }}>
               Interview Training that Actually works
             </h3>
             <p style={{ color: '#fff', opacity: '0.9', fontSize: '1.25rem', lineHeight: '1.75', margin: '0' }}>
@@ -157,7 +157,7 @@ const ResumesInterviewTraining = () => {
       <section className="section" style={{ paddingTop: '0' }}>
         <div className="container">
           <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
-            <h2 style={{ fontSize: '3rem', marginBottom: '0.75rem' }}>
+            <h2 className="text-section-title" style={{ marginBottom: '0.75rem' }}>
               What You Will <span className="highlight-text" style={{ color: '#ffb300' }}>Achieve</span>
             </h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', maxWidth: '800px', margin: '0 auto', lineHeight: '1.7' }}>
@@ -165,7 +165,7 @@ const ResumesInterviewTraining = () => {
             </p>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem' }}>
+          <div className="grid-3col" style={{ gap: '1.5rem' }}>
             {achievements.map((ach, i) => (
               <div key={i} style={{ backgroundColor: '#f8fafc', border: '1px solid #e2e8f0', padding: '3rem 2.5rem', borderRadius: '4px', minHeight: '160px', display: 'flex', alignItems: 'center' }}>
                 <p style={{ margin: '0', fontSize: '1.15rem', fontWeight: '700', color: 'var(--secondary)', lineHeight: '1.4' }}>
@@ -181,7 +181,7 @@ const ResumesInterviewTraining = () => {
       <section className="section" style={{ paddingTop: '0' }}>
         <div className="container split-layout">
           <div>
-            <h2 style={{ fontSize: '2.75rem', marginTop: '0', color: 'var(--secondary)' }}>
+            <h2 className="text-section-subtitle" style={{ marginTop: '0', color: 'var(--secondary)' }}>
               Personalized Interview Preparation
             </h2>
           </div>
@@ -200,7 +200,7 @@ const ResumesInterviewTraining = () => {
       <section className="how-we-do-it-container">
         <div className="container split-layout-half">
           <div style={{ backgroundColor: '#fff', padding: '3.5rem 3rem', borderRadius: '4px', color: 'var(--text-dark)', boxShadow: 'var(--shadow-lg)' }}>
-            <h3 style={{ fontSize: '1.75rem', color: 'var(--secondary)', marginBottom: '1rem' }}>
+            <h3 className="text-card-title" style={{ color: 'var(--secondary)', marginBottom: '1rem' }}>
               Common Interview Questions Covered
             </h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', marginBottom: '2rem' }}>
@@ -227,7 +227,7 @@ const ResumesInterviewTraining = () => {
         <div className="container split-layout">
           <div>
             <span style={{ color: 'var(--primary)', fontWeight: '700', fontSize: '1.1rem', textTransform: 'uppercase' }}>Contact Us</span>
-            <h2 style={{ fontSize: '3rem', marginTop: '0.5rem', margin: '0' }}>
+            <h2 className="text-section-title" style={{ marginTop: '0.5rem', margin: '0' }}>
               Ready to Nail that<br />Interview?
             </h2>
             <p style={{ marginTop: '1.5rem', color: '#fff', opacity: '0.85', fontSize: '1.15rem' }}>

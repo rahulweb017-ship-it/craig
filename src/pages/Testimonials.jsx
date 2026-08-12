@@ -20,7 +20,7 @@ const Testimonials = () => {
       <section className="hero-gradient" style={{ padding: '4.5rem 0' }}>
         <div className="container split-layout-half" style={{ textAlign: 'left', alignItems: 'center' }}>
           <div>
-            <h1 style={{ fontSize: '3.75rem', margin: '0' }}>Testimonials</h1>
+            <h1 className="text-hero" style={{ margin: '0' }}>Testimonials</h1>
             <p style={{ margin: '1rem 0 0 0', opacity: '0.85', fontSize: '1.15rem', lineHeight: '1.6' }}>
               Discover how our services have helped job seekers land interviews and secure their dream jobs. Read their success stories here!
             </p>
@@ -38,7 +38,7 @@ const Testimonials = () => {
       {/* Main Section */}
       <section className="section">
         <div className="container">
-          <h2 style={{ fontSize: '3.25rem', marginTop: '0', marginBottom: '0.5rem' }}>
+          <h2 className="text-section-title" style={{ marginTop: '0', marginBottom: '0.5rem' }}>
             What Our <span className="highlight-text" style={{ color: '#ffb300' }}>Clients Say</span>
           </h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem', marginBottom: '4rem' }}>
