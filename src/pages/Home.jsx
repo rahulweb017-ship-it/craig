@@ -216,7 +216,7 @@ const Home = () => {
           <div className="zigzag-card-list">
             
             {/* Card 1: Wooden blocks spelling JOB with toy workers */}
-            <div className="zigzag-card" style={{ padding: '2rem 3rem' }}>
+            <div className="zigzag-card" >
               <div>
                 <img 
                   src="/assets/2024/11/miniature-people-or-small-figure-worker-on-wood-bl-2023-11-27-05-33-25-utc-1.jpg" 
@@ -236,7 +236,7 @@ const Home = () => {
             </div>
 
             {/* Card 2: Handshake with a resume document */}
-            <div className="zigzag-card zigzag-card-right" style={{ padding: '2rem 3rem' }}>
+            <div className="zigzag-card zigzag-card-right" >
               <div>
                 <h3>Resumes</h3>
                 <p>
@@ -256,7 +256,7 @@ const Home = () => {
             </div>
 
             {/* Card 3: Business meeting group */}
-            <div className="zigzag-card" style={{ padding: '2rem 3rem' }}>
+            <div className="zigzag-card" >
               <div>
                 <img 
                   src="/assets/2024/11/business-women-2023-11-27-05-21-53-utc-1.jpg" 
