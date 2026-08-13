@@ -46,7 +46,7 @@ const Header = () => {
               className={`nav-link ${isHowItWorksActive ? 'active' : ''}`}
               onClick={(e) => {
                 // If on mobile (<=768px), toggle dropdown toggle on first tap
-                if (window.innerWidth <= 992) {
+                if (window.innerWidth <= 1100) {
                   e.preventDefault();
                   setDropdownOpen(!dropdownOpen);
                 } else {

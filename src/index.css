@@ -917,9 +917,9 @@ button {
 
 
 /* ==========================================
-   Header and Navigation Breakpoint: 992px
+   Header and Navigation Breakpoint: 1100px
    ========================================== */
-@media (max-width: 992px) {
+@media (max-width: 1100px) {
   /* Mobile Menu Container */
   .main-nav {
     display: none;
@@ -1000,8 +1000,8 @@ button {
   }
 }
 
-/* Intermediate Header Styling (993px - 1150px) to prevent wrap overlaps */
-@media (max-width: 1150px) and (min-width: 993px) {
+/* Intermediate Header Styling (1101px - 1150px) to prevent wrap overlaps */
+@media (max-width: 1150px) and (min-width: 1101px) {
   .main-nav {
     gap: 1rem;
   }
