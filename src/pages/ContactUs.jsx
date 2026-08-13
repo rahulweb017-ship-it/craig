@@ -54,7 +54,7 @@ const ContactUs = () => {
 
       {/* Contact Form / Info Grid */}
       <section className="section">
-        <div className="container" style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '5rem', alignItems: 'start' }}>
+        <div className="container contact-grid">
           
           {/* Form Column */}
           <div>

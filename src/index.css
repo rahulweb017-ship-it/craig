@@ -524,7 +524,8 @@ button {
 .contact-form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
+  row-gap: 0.85rem;
+  column-gap: 1.5rem;
 }
 
 .mobile-nav-toggle {
@@ -545,26 +546,7 @@ button {
   .split-layout, .split-layout-reverse, .split-layout-half { grid-template-columns: 1fr; gap: 2rem; }
   .sectors-grid { grid-template-columns: 1fr; }
   .footer-grid-4 { grid-template-columns: 1fr; }
-  .contact-form-grid { grid-template-columns: 1fr; }
-  .main-nav {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: var(--bg-white);
-    flex-direction: column;
-    padding: 1.5rem;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
-    border-top: 1px solid var(--border-color);
-    z-index: 150;
-  }
-  .main-nav.open {
-    display: flex;
-  }
-  .mobile-nav-toggle {
-    display: block;
-  }
+
   .payment-block-row {
     grid-template-columns: 1fr;
   }
@@ -753,39 +735,7 @@ button {
   color: var(--primary);
 }
 
-/* Adjust mobile layout styling */
-@media (max-width: 768px) {
-  .nav-dropdown-parent {
-    width: 100%;
-  }
-  
-  .nav-dropdown-parent .nav-link {
-    justify-content: space-between;
-    width: 100%;
-  }
 
-  .nav-dropdown-menu {
-    position: static;
-    transform: none;
-    box-shadow: none;
-    border: none;
-    padding: 0.5rem 0 0.5rem 1.5rem;
-    display: none;
-    margin-top: 0;
-    min-width: unset;
-    background-color: transparent;
-  }
-  
-  .nav-dropdown-menu.show {
-    display: flex;
-  }
-  
-  .dropdown-link {
-    padding: 0.6rem 0;
-    font-size: 1.05rem;
-    text-align: left;
-  }
-}
 
 /* ==========================================
    Responsive Typography & Layout Utilities
@@ -964,7 +914,36 @@ button {
   display: none;
 }
 
-@media (max-width: 768px) {
+
+
+/* ==========================================
+   Header and Navigation Breakpoint: 992px
+   ========================================== */
+@media (max-width: 992px) {
+  /* Mobile Menu Container */
+  .main-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-white);
+    flex-direction: column;
+    padding: 1.5rem;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
+    border-top: 1px solid var(--border-color);
+    z-index: 150;
+  }
+  
+  .main-nav.open {
+    display: flex;
+  }
+  
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  /* Logo size & actions inside mobile drawer */
   .logo img {
     height: 38px !important;
   }
@@ -980,5 +959,67 @@ button {
   .header-right .header-phone-btn,
   .header-right .header-country-select {
     display: none !important;
+  }
+
+  /* Mobile Dropdown Menu */
+  .nav-dropdown-parent {
+    width: 100%;
+  }
+  
+  .nav-dropdown-parent .nav-link {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    padding: 0.5rem 0 0.5rem 1.5rem;
+    display: none;
+    margin-top: 0;
+    min-width: unset;
+    background-color: transparent;
+  }
+  
+  .nav-dropdown-menu.show {
+    display: flex;
+  }
+  
+  .dropdown-link {
+    padding: 0.6rem 0;
+    font-size: 1.05rem;
+    text-align: left;
+  }
+  
+  /* Reduced grid layout gap for Form Section */
+  .contact-form-grid {
+    grid-template-columns: 1fr;
+    row-gap: 0.75rem; /* tight vertical gap for mobile labels & inputs */
+  }
+}
+
+/* Intermediate Header Styling (993px - 1150px) to prevent wrap overlaps */
+@media (max-width: 1150px) and (min-width: 993px) {
+  .main-nav {
+    gap: 1rem;
+  }
+  .nav-link {
+    font-size: 0.95rem;
+  }
+  .logo img {
+    height: 44px !important;
+  }
+  .header-right {
+    gap: 0.75rem;
+  }
+  .header-phone-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  .header-country-select {
+    padding: 0.4rem 0.5rem;
+    font-size: 0.9rem;
   }
 }
