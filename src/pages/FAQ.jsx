@@ -96,10 +96,10 @@ const FAQ = () => {
                 <div key={index} style={{ border: '1px solid #e2e8f0', borderRadius: '4px', overflow: 'hidden', boxShadow: 'var(--shadow-sm)' }}>
                   <button
                     onClick={() => toggleAccordion(index)}
+                    className="faq-accordion-btn"
                     style={{
                       width: '100%',
                       textAlign: 'left',
-                      padding: '1.5rem 2rem',
                       backgroundColor: '#f8fafc',
                       display: 'flex',
                       justifyContent: 'space-between',
@@ -122,7 +122,7 @@ const FAQ = () => {
                     </span>
                   </button>
                   {isOpen && (
-                    <div style={{ padding: '2rem 2.5rem', backgroundColor: '#fff', borderTop: '1px solid #e2e8f0' }}>
+                    <div className="faq-accordion-panel" style={{ backgroundColor: '#fff', borderTop: '1px solid #e2e8f0' }}>
                       <p style={{ margin: 0, color: 'var(--text-muted)', fontSize: '1.05rem', lineHeight: '1.75' }}>
                         {faq.a}
                       </p>
