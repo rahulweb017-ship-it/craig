@@ -66,7 +66,7 @@ const ContactUs = () => {
             </p>
 
             {submitted ? (
-              <div style={{ padding: '3rem 2rem', backgroundColor: '#f0f4f8', border: '1px solid #e2e8f0', borderRadius: '4px', textAlign: 'center' }}>
+              <div className="thank-you-card" style={{ backgroundColor: '#f0f4f8', border: '1px solid #e2e8f0', borderRadius: '4px', textAlign: 'center' }}>
                 <span style={{ fontSize: '3.5rem', display: 'block', marginBottom: '1rem' }}>🎉</span>
                 <h3 className="text-card-title" style={{ color: 'var(--secondary)', marginBottom: '0.75rem' }}>Thank You!</h3>
                 <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem' }}>

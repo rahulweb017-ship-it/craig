@@ -36,7 +36,7 @@ const Sponsorship = () => {
               Our direct placement service bypasses these filters. By sending your resume and custom cover letter directly to the executives of companies that have the capability to sponsor, we get you noticed by the people who have the authority to make visa decisions.
             </p>
             
-            <div style={{ backgroundColor: '#f8fafc', padding: '2.5rem', borderRadius: '4px', border: '1px solid #e2e8f0', marginTop: '2.5rem' }}>
+            <div className="sponsorship-card" style={{ backgroundColor: '#f8fafc', borderRadius: '4px', border: '1px solid #e2e8f0', marginTop: '2.5rem' }}>
               <h3 className="text-card-title" style={{ color: 'var(--secondary)', marginBottom: '1.25rem' }}>
                 Direct Placement Sponsorship Search
               </h3>

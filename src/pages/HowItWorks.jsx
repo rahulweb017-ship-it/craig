@@ -151,13 +151,13 @@ const HowItWorks = () => {
           </div>
 
           <div className="grid-2col">
-            <div style={{ backgroundColor: '#f8fafc', padding: '2.5rem', borderRadius: '4px', border: '1px solid #e2e8f0', boxShadow: 'var(--shadow)' }}>
+            <div className="cant-find-box" style={{ backgroundColor: '#f8fafc', borderRadius: '4px', border: '1px solid #e2e8f0', boxShadow: 'var(--shadow)' }}>
               <h3 style={{ fontSize: '1.4rem', color: 'var(--secondary)', marginBottom: '1rem' }}>Bad cover letters</h3>
               <p style={{ color: 'var(--text-muted)', margin: '0', fontSize: '1rem', lineHeight: '1.75' }}>
                 Your cover letter is bad. If the English in your cover letter is poor you will be deleted instantly. It's simple. If your cover letter is not perfect there is a chance that you will never be employed in the job that you want. If you have been hunting for a job for more than a couple of weeks then this may be your problem.
               </p>
             </div>
-            <div style={{ backgroundColor: '#f8fafc', padding: '2.5rem', borderRadius: '4px', border: '1px solid #e2e8f0', boxShadow: 'var(--shadow)' }}>
+            <div className="cant-find-box" style={{ backgroundColor: '#f8fafc', borderRadius: '4px', border: '1px solid #e2e8f0', boxShadow: 'var(--shadow)' }}>
               <h3 style={{ fontSize: '1.4rem', color: 'var(--secondary)', marginBottom: '1rem' }}>Too many job seekers</h3>
               <p style={{ color: 'var(--text-muted)', margin: '0', fontSize: '1rem', lineHeight: '1.75' }}>
                 There are too many people competing for the jobs that you are applying for. If you wait for a job to be advertised then you will have very little chance of getting it. There could easily be 100 or more applicants going for the same job. The easiest way to get a job is to reach the employer before the job is advertised. This is what we do. Our clients are often the only ones interviewed. That is why our clients can get a job so easily.
@@ -208,7 +208,7 @@ const HowItWorks = () => {
             In-depth analysis<br />of our work
           </h2>
 
-          <div style={{ backgroundColor: '#fff', padding: '4.5rem', borderRadius: '4px', boxShadow: 'var(--shadow-lg)', border: '1px solid #e2e8f0' }}>
+          <div className="why-we-find-card" style={{ backgroundColor: '#fff', borderRadius: '4px', boxShadow: 'var(--shadow-lg)', border: '1px solid #e2e8f0' }}>
             <h3 className="text-section-subtitle" style={{ marginBottom: '2rem' }}>
               How Do We Find Jobs That No One Else Knows About
             </h3>

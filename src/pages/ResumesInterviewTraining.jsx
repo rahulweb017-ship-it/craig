@@ -94,7 +94,7 @@ const ResumesInterviewTraining = () => {
       {/* Pricing & Packages Section */}
       <section className="how-we-do-it-container">
         <div className="container split-layout-half">
-          <div style={{ backgroundColor: '#fff', padding: '3.5rem 3rem', borderRadius: '4px', color: 'var(--text-dark)', boxShadow: 'var(--shadow-lg)' }}>
+          <div className="package-card" style={{ backgroundColor: '#fff', borderRadius: '4px', color: 'var(--text-dark)', boxShadow: 'var(--shadow-lg)' }}>
             <h3 className="text-section-subtitle" style={{ color: 'var(--secondary)', marginBottom: '1rem' }}>Pricing & Packages</h3>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.05rem', marginBottom: '2rem', lineHeight: '1.6' }}>
               We offer a cover letter and resume package. If you only want us to create a cover letter and resume that will help you get a job, we can do that too.
@@ -142,7 +142,7 @@ const ResumesInterviewTraining = () => {
         <div className="container">
           <h2 className="text-section-subtitle" style={{ marginBottom: '2rem' }}>Introduction</h2>
           
-          <div style={{ backgroundColor: 'var(--secondary)', color: '#fff', padding: '4.5rem', borderRadius: '4px', boxShadow: 'var(--shadow-lg)' }}>
+          <div className="intro-card" style={{ backgroundColor: 'var(--secondary)', color: '#fff', borderRadius: '4px', boxShadow: 'var(--shadow-lg)' }}>
             <h3 className="text-card-title" style={{ color: '#fff', marginBottom: '1.5rem' }}>
               Interview Training that Actually works
             </h3>
@@ -167,7 +167,7 @@ const ResumesInterviewTraining = () => {
 
           <div className="grid-3col" style={{ gap: '1.5rem' }}>
             {achievements.map((ach, i) => (
-              <div key={i} style={{ backgroundColor: '#f8fafc', border: '1px solid #e2e8f0', padding: '3rem 2.5rem', borderRadius: '4px', minHeight: '160px', display: 'flex', alignItems: 'center' }}>
+              <div key={i} className="teach-card" style={{ backgroundColor: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '4px', minHeight: '160px', display: 'flex', alignItems: 'center' }}>
                 <p style={{ margin: '0', fontSize: '1.15rem', fontWeight: '700', color: 'var(--secondary)', lineHeight: '1.4' }}>
                   {ach}
                 </p>
@@ -199,7 +199,7 @@ const ResumesInterviewTraining = () => {
       {/* Common Interview Questions Covered Section */}
       <section className="how-we-do-it-container">
         <div className="container split-layout-half">
-          <div style={{ backgroundColor: '#fff', padding: '3.5rem 3rem', borderRadius: '4px', color: 'var(--text-dark)', boxShadow: 'var(--shadow-lg)' }}>
+          <div className="package-card" style={{ backgroundColor: '#fff', borderRadius: '4px', color: 'var(--text-dark)', boxShadow: 'var(--shadow-lg)' }}>
             <h3 className="text-card-title" style={{ color: 'var(--secondary)', marginBottom: '1rem' }}>
               Common Interview Questions Covered
             </h3>

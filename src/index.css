@@ -538,7 +538,8 @@ button {
   h2 { font-size: 2.15rem; }
   .sectors-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid-4 { grid-template-columns: repeat(2, 1fr); }
-  .zigzag-card, .zigzag-card-right { grid-template-columns: 1fr; gap: 2rem; padding: 16px; }
+  .zigzag-card { display: flex !important; flex-direction: column !important; gap: 2rem; padding: 16px; }
+  .zigzag-card-right { display: flex !important; flex-direction: column-reverse !important; gap: 2rem; padding: 16px; }
   .sector-box { padding: 16px; }
 }
 
@@ -1045,9 +1046,15 @@ button {
     font-size: 24px !important;
   }
 
-  /* Section and Hero padding overrides */
-  .section, .hero-gradient {
+  /* Section, Hero, and Container padding overrides */
+  .section, .hero-gradient, .how-we-do-it-container {
     padding: 30px 0 !important;
+  }
+  .section[style*="padding-top: 0"], .section[style*="padding-top:0"] {
+    padding-top: 0 !important;
+  }
+  .section[style*="padding-bottom: 0"], .section[style*="padding-bottom:0"] {
+    padding-bottom: 0 !important;
   }
 
   /* Image position swap: Put right-side images on top of left-side content */
@@ -1068,8 +1075,21 @@ button {
   .training-grid > div, 
   .payment-block-text, 
   .faq-accordion-btn, 
-  .faq-accordion-panel {
+  .faq-accordion-panel,
+  .thank-you-card,
+  .cant-find-box,
+  .why-we-find-card,
+  .package-card,
+  .intro-card,
+  .teach-card,
+  .sponsorship-card {
     padding: 15px !important;
+  }
+
+  /* Training grid right image stack order on mobile */
+  .training-grid:has(> div:nth-child(2) img) {
+    display: flex !important;
+    flex-direction: column-reverse !important;
   }
 
   /* Align CTA buttons left on mobile */
@@ -1081,4 +1101,27 @@ button {
   .btn-yellow, .btn-blue {
     align-self: flex-start !important;
   }
+}
+
+/* Desktop Card/Box Paddings (Migrated from Inline Styles) */
+.thank-you-card {
+  padding: 3rem 2rem;
+}
+.cant-find-box {
+  padding: 2.5rem;
+}
+.why-we-find-card {
+  padding: 4.5rem;
+}
+.package-card {
+  padding: 3.5rem 3rem;
+}
+.intro-card {
+  padding: 4.5rem;
+}
+.teach-card {
+  padding: 3rem 2.5rem;
+}
+.sponsorship-card {
+  padding: 2.5rem;
 }
