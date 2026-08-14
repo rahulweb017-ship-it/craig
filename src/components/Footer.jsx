@@ -15,7 +15,7 @@ const Footer = () => {
             <img 
               src="/assets/2024/10/jobfactorylogo.png" 
               alt="The Job Factory Logo" 
-              style={{ height: '48px', marginBottom: '1.5rem', borderRadius: '2px', filter: 'brightness(0.95)' }} 
+              style={{ height: '48px', marginBottom: '1.5rem', borderRadius: '4px', backgroundColor: '#fff', padding: '6px 12px' }} 
             />
             <p style={{ lineHeight: '1.6', fontSize: '0.925rem' }}>
               Finding job is easy and it is never a bad time to be looking for work. We offer one of the fastest ways to find a job – we measure our success in days, not weeks.
