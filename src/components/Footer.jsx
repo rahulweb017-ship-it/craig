@@ -13,7 +13,7 @@ const Footer = () => {
           {/* Col 1: About */}
           <div className="footer-col">
             <img 
-              src="/assets/2024/10/jobfactorylogo.jpg" 
+              src="/assets/2024/10/jobfactorylogo.png" 
               alt="The Job Factory Logo" 
               style={{ height: '48px', marginBottom: '1.5rem', borderRadius: '2px', filter: 'brightness(0.95)' }} 
             />

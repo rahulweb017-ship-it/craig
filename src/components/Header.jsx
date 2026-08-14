@@ -22,7 +22,7 @@ const Header = () => {
       <div className="container header-container">
         {/* Logo */}
         <Link to="/" className="logo">
-          <img src="/assets/2024/10/jobfactorylogo.jpg" alt="The Job Factory Logo" />
+          <img src="/assets/2024/10/jobfactorylogo.png" alt="The Job Factory Logo" />
         </Link>
 
         {/* Navigation */}
