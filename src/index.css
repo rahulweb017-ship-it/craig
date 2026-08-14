@@ -1058,9 +1058,16 @@ button {
   }
 
   /* Image position swap: Put right-side images on top of left-side content */
-  .split-layout:has(> div:nth-child(2) img) {
-    display: flex;
-    flex-direction: column-reverse;
+  .split-layout:has(> div:nth-child(2) img),
+  .split-layout-half:has(> div:nth-child(2) img) {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  .split-layout > div,
+  .split-layout-half > div {
+    text-align: left !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
   }
 
   /* Homepage sector-box height */
