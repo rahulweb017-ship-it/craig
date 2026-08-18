@@ -77,7 +77,7 @@ const Testimonials = () => {
                 className="btn-yellow"
                 style={{ padding: '1rem 3.5rem', fontSize: '1.1rem' }}
               >
-                Load More Testimonials ({testimonials.length - visibleCount} remaining)
+                Load More Testimonials
               </button>
             </div>
           )}
