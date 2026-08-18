@@ -165,10 +165,15 @@ const Home = () => {
               The <span className="highlight-text">cost</span>
             </h2>
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', height: '100%' }}>
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '1.5rem', height: '100%' }}>
             <p style={{ fontSize: '1.25rem', margin: '0', color: 'var(--text-light)', opacity: '0.95', lineHeight: '1.7' }}>
               Our fee is {details.costs.search}. Our resumes and cover letters cost {details.costs.resume}. Interview training is available for {details.costs.training}.
             </p>
+            <div>
+              <Link to="/costs" className="btn-yellow">
+                Get Started
+              </Link>
+            </div>
           </div>
         </div>
       </section>
