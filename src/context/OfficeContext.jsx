@@ -23,10 +23,10 @@ export const officeData = {
   },
   AU: {
     countryName: 'Australia',
-    phone: '+61 433 114 847',
+    phone: '+61 0433114847',
     phoneRaw: 'tel:+61433114847',
     email: 'jobs@thejobfactory.com.au',
-    whatsapp: '+61 433 114 847',
+    whatsapp: '+61 0433114847',
     whatsappRaw: 'https://wa.me/61433114847',
     bankAccount: 'Please contact us for Australian payment options.',
     bankName: 'Commonwealth Bank of Australia',
