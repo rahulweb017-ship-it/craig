@@ -200,41 +200,6 @@ const HowItWorks = () => {
         </div>
       </section>
 
-      {/* In-depth Analysis Section */}
-      <section className="section section-bg">
-        <div className="container">
-          <span style={{ color: 'var(--secondary)', fontWeight: '700', fontSize: '1.1rem', textTransform: 'uppercase' }}>Our Work</span>
-          <h2 className="text-section-title" style={{ marginTop: '0.5rem', marginBottom: '3rem' }}>
-            In-depth analysis<br />of our work
-          </h2>
-
-          <div className="why-we-find-card" style={{ backgroundColor: '#fff', borderRadius: '4px', boxShadow: 'var(--shadow-lg)', border: '1px solid #e2e8f0' }}>
-            <h3 className="text-section-subtitle" style={{ marginBottom: '2rem' }}>
-              How Do We Find Jobs That No One Else Knows About
-            </h3>
-            
-            <Link to="/contact-us" className="btn-yellow" style={{ marginBottom: '2.5rem' }}>
-              Contact Us
-            </Link>
-
-            <div className="text-body-large" style={{ color: 'var(--text-muted)', lineHeight: '1.75' }}>
-              <p style={{ marginBottom: '1.5rem' }}>
-                Our process is simple. Just tell us the type of job that you want – accounting, aged care, administration, engineering, customer service, nursing, IT or any other type of job that you can think of – and we will start sending your cover letter and resume to up to 1500 companies that might have the type of job that you want.
-              </p>
-              <p style={{ marginBottom: '1.5rem' }}>
-                The employers will be as close to the area in which you live – or you can try the whole country.
-              </p>
-              <p style={{ marginBottom: '1.5rem' }}>
-                So, if you want an engineering job in Wellington, we will be sending to your resume to engineering companies in Wellington. If you want an accounting job in Auckland, we will be sending your resume to companies in Auckland. And, if you want a nursing job anywhere at all, we will send your resume to hospitals all over the country.
-              </p>
-              <p style={{ margin: '0' }}>
-                It does not matter what type of job you want; the strategy is always the same – except that we can't help with Government, hospitality or retail jobs.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Still Have Questions? Section */}
       <section className="section section-dark" style={{ padding: '4.5rem 0' }}>
         <div className="container split-layout">
