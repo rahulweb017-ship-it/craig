@@ -1132,3 +1132,18 @@ button {
 .sponsorship-card {
   padding: 2.5rem;
 }
+
+
+/* Bridge the 0.5rem hover gap between nav link and dropdown menu on desktop */
+@media (min-width: 1101px) {
+  .nav-dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -0.6rem;
+    left: 0;
+    right: 0;
+    height: 0.6rem;
+    background-color: transparent;
+    z-index: -1;
+  }
+}
