@@ -85,7 +85,7 @@ const Costs = () => {
                   Trying again
                 </p>
                 <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', margin: '0', lineHeight: '1.6' }}>
-                  If it doesn't work out and if you want to try the same companies a few weeks later, different companies, or in another state.
+                  If it doesn't work out and if you want to try the same companies a few weeks later, different companies, or in another state, the cost to retry is only $65 if the second attempt is within eight weeks of the first.
                 </p>
               </div>
             </div>
