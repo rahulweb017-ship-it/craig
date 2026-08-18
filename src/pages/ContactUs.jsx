@@ -201,9 +201,11 @@ const ContactUs = () => {
               <li style={{ marginBottom: '1rem' }}>
                 <strong>Email:</strong> <a href={`mailto:${details.email}`} style={{ color: 'var(--secondary)', textDecoration: 'underline' }}>{details.email}</a>
               </li>
-              <li>
-                <strong>WhatsApp:</strong> <a href={details.whatsappRaw} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--secondary)', textDecoration: 'underline' }}>{details.whatsapp}</a>
-              </li>
+              {details.whatsapp && (
+                <li>
+                  <strong>WhatsApp:</strong> <a href={details.whatsappRaw} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--secondary)', textDecoration: 'underline' }}>{details.whatsapp}</a>
+                </li>
+              )}
             </ul>
           </div>
 
