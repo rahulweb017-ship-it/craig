@@ -110,7 +110,7 @@ const ResumesInterviewTraining = () => {
               </li>
               <li style={{ fontSize: '1.1rem', fontWeight: '700', color: 'var(--secondary)', display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
                 <span>⭐</span>
-                <span>Express Service (24-hour turnaround): {details.costs.admin === '$10' ? '$200' : '$200 AUD'}</span>
+                <span>Express Service (24-hour turnaround): {details.costs.admin === '$10' ? '$240' : '$240 AUD'}</span>
               </li>
             </ul>
           </div>
