@@ -158,7 +158,7 @@ const Costs = () => {
               <div className="payment-block-text">
                 <h3>Every day that you remain unemployed you are losing money</h3>
                 <p>
-                  so our aim is to find jobs for clients as quickly as possible by skipping them to the front of the queue.
+                  Our aim is to find jobs for clients as quickly as possible by skipping them to the front of the queue.
                 </p>
                 <p style={{ marginTop: '1rem' }}>
                   Keep in mind that we do not have any relationship or any contact with any employers ever. Our aim is to work for you to try to find you a vacancy that has not been advertised to maximise your chances of getting a job. We put our clients first, unlike job agencies. It is also important to note that we do not guarantee that clients will get a job by using our services.
